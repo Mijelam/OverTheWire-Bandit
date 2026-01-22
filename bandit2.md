@@ -9,7 +9,7 @@ It's tricky everywhere, the file name has this: **" - "** again, but it's ok, we
 
 ### For example:
 
-If we type: **cat file with spaces.txt** cat is gonna try to read a file called **file,** a file called **with** and a file called **spaces.txt**  why does this happen? it's all because the spaces. To cat in this case each text after an space is taken as an argument, a file to search, read and display its contents, so it's thinking "ok, they user wants me to display the content of 3 files at the same time" and this happens with a lot of commands so, the way to avoid this (one way) is by typing the file name bettween **""**  like this:
+If we type: **cat file with spaces.txt** cat is gonna try to read a file called **file,** a file called **with** and a file called **spaces.txt**  why does this happen? it's all because the spaces. To cat, in this case, each text after an space is taken as an argument, a file to search, read and display its contents, so it's thinking "ok, they user wants me to display the content of 3 files at the same time" and this happens with a lot of commands so, the way to avoid this (one way) is by typing the file name between **""**  like this:
 
 ![Bandit Game](screenshots/bandit0/bandit2-1.png)
 
