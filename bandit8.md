@@ -7,7 +7,7 @@ The password for the next level is stored in the file **data.txt** and is the 
 ### Thought process:
 
 The command **uniq -u** is perfect for this. But we have to keep in mind that isn't gonna work if we don't sort the text in the file first, example:
-Imagine this is de stdout from **cat data.txt**
+Imagine this is the stdout from **cat data.txt**
 **book
 paper
 book
